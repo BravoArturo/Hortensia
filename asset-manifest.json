@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/Hortensia/static/css/main.e16e0a37.chunk.css",
+    "main.js": "/Hortensia/static/js/main.6e5c9060.chunk.js",
+    "main.js.map": "/Hortensia/static/js/main.6e5c9060.chunk.js.map",
+    "runtime-main.js": "/Hortensia/static/js/runtime-main.700f231d.js",
+    "runtime-main.js.map": "/Hortensia/static/js/runtime-main.700f231d.js.map",
+    "static/js/2.85b19f98.chunk.js": "/Hortensia/static/js/2.85b19f98.chunk.js",
+    "static/js/2.85b19f98.chunk.js.map": "/Hortensia/static/js/2.85b19f98.chunk.js.map",
+    "index.html": "/Hortensia/index.html",
+    "precache-manifest.8b4dca9c39484935c4dfa3aea486348c.js": "/Hortensia/precache-manifest.8b4dca9c39484935c4dfa3aea486348c.js",
+    "service-worker.js": "/Hortensia/service-worker.js",
+    "static/css/main.e16e0a37.chunk.css.map": "/Hortensia/static/css/main.e16e0a37.chunk.css.map",
+    "static/js/2.85b19f98.chunk.js.LICENSE.txt": "/Hortensia/static/js/2.85b19f98.chunk.js.LICENSE.txt",
+    "static/media/difusorgral.jpg": "/Hortensia/static/media/difusorgral.9c071c28.jpg",
+    "static/media/floreschicasgral.jpg": "/Hortensia/static/media/floreschicasgral.cbef198c.jpg",
+    "static/media/floresgrandesgral.jpg": "/Hortensia/static/media/floresgrandesgral.5d704a1a.jpg",
+    "static/media/homespraygral.jpg": "/Hortensia/static/media/homespraygral.df1d37db.jpg",
+    "static/media/logoh.jpg": "/Hortensia/static/media/logoh.caf30763.jpg",
+    "static/media/velascementogral.jpg": "/Hortensia/static/media/velascementogral.479e3b7a.jpg",
+    "static/media/velasvidriogral.jpg": "/Hortensia/static/media/velasvidriogral.2cfe2b78.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.700f231d.js",
+    "static/js/2.85b19f98.chunk.js",
+    "static/css/main.e16e0a37.chunk.css",
+    "static/js/main.6e5c9060.chunk.js"
+  ]
+}
