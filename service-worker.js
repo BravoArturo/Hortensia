@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Hortensia/precache-manifest.a5bd73875accb03114bbb8f526cd45b7.js"
+  "/Hortensia/precache-manifest.6ce5acc69adca67bdff9a38cf8d57ae2.js"
 );
 
 self.addEventListener('message', (event) => {

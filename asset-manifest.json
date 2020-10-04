@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Hortensia/static/css/main.03890128.chunk.css",
-    "main.js": "/Hortensia/static/js/main.6e5c9060.chunk.js",
-    "main.js.map": "/Hortensia/static/js/main.6e5c9060.chunk.js.map",
+    "main.css": "/Hortensia/static/css/main.df93a570.chunk.css",
+    "main.js": "/Hortensia/static/js/main.ec2ec1e9.chunk.js",
+    "main.js.map": "/Hortensia/static/js/main.ec2ec1e9.chunk.js.map",
     "runtime-main.js": "/Hortensia/static/js/runtime-main.700f231d.js",
     "runtime-main.js.map": "/Hortensia/static/js/runtime-main.700f231d.js.map",
-    "static/js/2.85b19f98.chunk.js": "/Hortensia/static/js/2.85b19f98.chunk.js",
-    "static/js/2.85b19f98.chunk.js.map": "/Hortensia/static/js/2.85b19f98.chunk.js.map",
+    "static/js/2.e2d6ddc3.chunk.js": "/Hortensia/static/js/2.e2d6ddc3.chunk.js",
+    "static/js/2.e2d6ddc3.chunk.js.map": "/Hortensia/static/js/2.e2d6ddc3.chunk.js.map",
     "index.html": "/Hortensia/index.html",
-    "precache-manifest.a5bd73875accb03114bbb8f526cd45b7.js": "/Hortensia/precache-manifest.a5bd73875accb03114bbb8f526cd45b7.js",
+    "precache-manifest.6ce5acc69adca67bdff9a38cf8d57ae2.js": "/Hortensia/precache-manifest.6ce5acc69adca67bdff9a38cf8d57ae2.js",
     "service-worker.js": "/Hortensia/service-worker.js",
-    "static/css/main.03890128.chunk.css.map": "/Hortensia/static/css/main.03890128.chunk.css.map",
-    "static/js/2.85b19f98.chunk.js.LICENSE.txt": "/Hortensia/static/js/2.85b19f98.chunk.js.LICENSE.txt",
+    "static/css/main.df93a570.chunk.css.map": "/Hortensia/static/css/main.df93a570.chunk.css.map",
+    "static/js/2.e2d6ddc3.chunk.js.LICENSE.txt": "/Hortensia/static/js/2.e2d6ddc3.chunk.js.LICENSE.txt",
     "static/media/difusorgral.jpg": "/Hortensia/static/media/difusorgral.9c071c28.jpg",
     "static/media/floreschicasgral.jpg": "/Hortensia/static/media/floreschicasgral.cbef198c.jpg",
     "static/media/floresgrandesgral.jpg": "/Hortensia/static/media/floresgrandesgral.5d704a1a.jpg",
@@ -22,8 +22,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.700f231d.js",
-    "static/js/2.85b19f98.chunk.js",
-    "static/css/main.03890128.chunk.css",
-    "static/js/main.6e5c9060.chunk.js"
+    "static/js/2.e2d6ddc3.chunk.js",
+    "static/css/main.df93a570.chunk.css",
+    "static/js/main.ec2ec1e9.chunk.js"
   ]
 }
