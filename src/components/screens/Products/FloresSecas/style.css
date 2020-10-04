@@ -5,7 +5,7 @@
     justify-content: center;
     align-items: center;
     height: 600px;
-    width: 1000px;
+    min-width: 1000px;
 }
 
 .floresgral {
@@ -18,5 +18,5 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;    
+    flex-direction: column;  
 }

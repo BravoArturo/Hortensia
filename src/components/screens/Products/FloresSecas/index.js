@@ -16,9 +16,7 @@ class FloresSecas extends React.Component {
           <h3 className="productName">Flores Chicas</h3>
           <h4 className="productPrice">$300</h4>
         </di>
-      </div>
-
-      
+        </div>   
     );
   }
 }
