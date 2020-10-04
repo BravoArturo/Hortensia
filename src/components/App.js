@@ -11,7 +11,6 @@ import Velas from './screens/Products/Velas';
 import Cart from './screens/Cart';
 import SignIn from './screens/SignIn';
 import principallogo from '../assets/Logos/principallogo.jpg';
-import HomeSpray0 from './screens/Products/HomeSpray0';
 
 class App extends React.Component {
   render(){
