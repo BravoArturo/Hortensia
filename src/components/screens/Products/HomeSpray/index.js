@@ -1,13 +1,19 @@
 import './style.css';
 import React from 'react';
-import logo from '../../../../assets/HomeSpray/homespraygral.jpg';
+import data from './data';
 class HomeSpray extends React.Component {
   render(){
     return (
-      <div id="bodyHS">
-        <img src={logo} className="homespraygral" alt="HomeSpray"/>
-        <h3 className="productName">Home Spray</h3>
-        <h4 className="productPrice">$420</h4>
+      <div id="bodyS">
+        {
+        data.products.map(product =>
+          <div className="HomeSpray">
+          <img src={product.image} className="homespraygral" alt="Home Spray"/>
+          <h3 className="productName">{product.name}</h3>
+          <h4 className="productPrice">${product.price}</h4>
+          </div>
+          )
+      }
       </div>
     );
   }

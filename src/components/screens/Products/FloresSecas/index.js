@@ -1,21 +1,19 @@
 import './style.css';
 import React from 'react';
-import logo from '../../../../assets/Flores/floresgrandesgral.jpg';
-import logo1 from '../../../../assets/Flores/floreschicasgral.jpg';
+import data from './data';
 class FloresSecas extends React.Component {
   render(){
     return (
       <div id="bodyF">
-        <div className="flowers">
-        <img src={logo} className="floresgral" alt="Flores Grandes"/>
-          <h3 className="productName">Flores Grandes</h3>
-          <h4 className="productPrice">$600</h4>
-        </div>
-        <di className="flowers">
-        <img src={logo1} className="floresgral" alt="Flores Chicas"/>
-          <h3 className="productName">Flores Chicas</h3>
-          <h4 className="productPrice">$300</h4>
-        </di>
+         {
+        data.products.map(product =>
+          <div className="flowers">
+          <img src={product.image} className="floresgral" alt="flores"/>
+          <h3 className="productName">{product.name}</h3>
+          <h4 className="productPrice">${product.price}</h4>
+          </div>
+          )
+      }
         </div>   
     );
   }

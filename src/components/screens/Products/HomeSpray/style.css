@@ -1,4 +1,4 @@
-#bodyHS {
+#bodyS {
     display: flex;
     flex-direction: column;
     background-color: #d7cfa0;
@@ -7,7 +7,12 @@
     height: 600px;
     width: 1000px;
 }
-
+.HomeSpray {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; 
+}
 .homespraygral {
     height: 400px;
     width: 350px;

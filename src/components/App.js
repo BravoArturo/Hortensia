@@ -11,6 +11,7 @@ import Velas from './screens/Products/Velas';
 import Cart from './screens/Cart';
 import SignIn from './screens/SignIn';
 import principallogo from '../assets/Logos/principallogo.jpg';
+import HomeSpray0 from './screens/Products/HomeSpray0';
 
 class App extends React.Component {
   render(){
@@ -34,8 +35,8 @@ class App extends React.Component {
                   <li><Link className="link" to="/FloresSecas">Flores Secas</Link></li>
                 </ul>
               </div>
-              <a  className="followUs" href="https://www.instagram.com/hortensia.scents/?hl=es-la">
-                   <div>Seguinos en redes!</div>
+              <a  className="followUs" target="_blank" href="https://www.instagram.com/hortensia.scents/?hl=es-la">
+                   <div>Seguinos en redes</div>
                   <img src={insta} className="instalogo" alt="logo"/>
               </a>
               <div>¿Quienes somos?</div>      
