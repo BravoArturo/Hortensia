@@ -1,0 +1,92 @@
+.App {
+  height: 100%;
+  background-color: 	#726a47;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  list-style: none
+}
+.up{
+  margin-top: 20px;
+  background-color: 	#d7cfa0;
+  display: flex;
+  width: 1000px;
+  height: 100px;
+  align-items: center;
+  justify-content: space-around;
+  position: relative;
+  font-size: x-large;
+  color: #726a47;
+}
+.subMenuProducts {
+  background-color: #726a47;
+  color: #d7cfa0;
+  list-style: none;
+  position: absolute;
+  width: 18%;
+  display: none;
+}
+
+.up div:hover{
+  color: white;
+  cursor: pointer;
+}
+.up div:hover .subMenuProducts {
+  list-style: square;
+  position: absolute;
+  top: 42%;
+  display: block;
+}
+.link {
+  text-decoration: none;
+  color: #d7cfa0;
+}
+.followUs{
+  display: flex;
+  flex-direction: row;
+  align-items:  center;
+  color: #726a47;
+  text-decoration: none;
+}
+.instalogo{
+  display: flex;
+  height: 50px;
+  width: 50px;
+}
+.main {
+  margin-top: -22px;
+}
+.up2header{
+  display: flex;
+  background-color: 	#d7cfa0;
+  margin-top: 20px;
+  width: 1000px;
+  height: 40px;
+  margin-bottom: -22px;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.link0{
+  margin: 30px;
+  text-decoration: none;
+}
+.footer{
+  background-color: 	#d7cfa0;
+  display: flex;
+  width: 1000px;
+  align-items: center;
+  justify-content: space-around;
+  position: relative;
+  font-size: x-large;
+  color: #726a47;
+}
+.up2header a {
+  color: #726a47;
+}
+.up2header a:hover {
+  color: white;
+}
+.up a:hover {
+  color: white;
+}

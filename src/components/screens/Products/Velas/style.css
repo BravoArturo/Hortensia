@@ -1,0 +1,22 @@
+#bodyV {
+    display: flex;
+    flex-direction: row;
+    background-color: #d7cfa0;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    width: 1000px;
+}
+
+.velasgral {
+    margin: 5px;
+    height: 400px;
+    width: 350px;
+}
+
+.candles {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;    
+}
