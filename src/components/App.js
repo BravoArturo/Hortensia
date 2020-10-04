@@ -10,6 +10,7 @@ import HomeSpray from './screens/Products/HomeSpray';
 import Velas from './screens/Products/Velas';
 import Cart from './screens/Cart';
 import SignIn from './screens/SignIn';
+import principallogo from '../assets/Logos/principallogo.jpg';
 
 class App extends React.Component {
   render(){
@@ -21,12 +22,9 @@ class App extends React.Component {
         <Link className="link0" to="/SignIn">Iniciar Sesión</Link>
       </div>
       <header className="up">
-              <Link className="followUs" to="/Hortensia">Hortensia</Link>
-              <div>¿Quienes somos?</div>
-              <a  className="followUs" href="https://www.instagram.com/hortensia.scents/?hl=es-la">
-                   <div>Seguinos en redes!</div>
-                  <img src={insta} className="instalogo" alt="logo"/>
-              </a>      
+              <Link className="followUs" to="/Hortensia">
+              <img src={principallogo} className="principallogo" alt="logo"/>
+              </Link>
               <div>
               Nuestros productos
                 <ul className="subMenuProducts">
@@ -36,6 +34,11 @@ class App extends React.Component {
                   <li><Link className="link" to="/FloresSecas">Flores Secas</Link></li>
                 </ul>
               </div>
+              <a  className="followUs" href="https://www.instagram.com/hortensia.scents/?hl=es-la">
+                   <div>Seguinos en redes!</div>
+                  <img src={insta} className="instalogo" alt="logo"/>
+              </a>
+              <div>¿Quienes somos?</div>      
         </header>
         <main className="main">
                   <Route exact path="/Cart"><Cart /></Route>

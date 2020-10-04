@@ -53,6 +53,11 @@
   height: 50px;
   width: 50px;
 }
+.principallogo {
+  display: flex;
+  height: 50px;
+  width: 50px;
+}
 .main {
   margin-top: -22px;
 }
