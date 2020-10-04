@@ -17,12 +17,11 @@ class App extends React.Component {
       <BrowserRouter>
       <div className="App">
       <div className="up2header">
-        <div> hola</div>
         <Link className="link0" to="/Cart">Carrito</Link>
         <Link className="link0" to="/SignIn">Iniciar Sesión</Link>
       </div>
       <header className="up">
-              <Link className="followUs" to="/">Hortensia</Link>
+              <Link className="followUs" to="/Hortensia">Hortensia</Link>
               <div>¿Quienes somos?</div>
               <a  className="followUs" href="https://www.instagram.com/hortensia.scents/?hl=es-la">
                    <div>Seguinos en redes!</div>
@@ -41,7 +40,7 @@ class App extends React.Component {
         <main className="main">
                   <Route exact path="/Cart"><Cart /></Route>
                   <Route exact path="/SignIn"><SignIn /></Route>
-                  <Route exact path="/"><Home /></Route>
+                  <Route exact path="/Hortensia"><Home /></Route>
                   <Route exact path="/HomeSpray"><HomeSpray /></Route>
                   <Route exact path="/Difusores"><Difusores /></Route>
                   <Route exact path="/Velas"><Velas /></Route>
