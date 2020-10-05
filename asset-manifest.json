@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Hortensia/static/css/main.0994051e.chunk.css",
-    "main.js": "/Hortensia/static/js/main.caca4522.chunk.js",
-    "main.js.map": "/Hortensia/static/js/main.caca4522.chunk.js.map",
+    "main.css": "/Hortensia/static/css/main.684aa8c4.chunk.css",
+    "main.js": "/Hortensia/static/js/main.333fccae.chunk.js",
+    "main.js.map": "/Hortensia/static/js/main.333fccae.chunk.js.map",
     "runtime-main.js": "/Hortensia/static/js/runtime-main.700f231d.js",
     "runtime-main.js.map": "/Hortensia/static/js/runtime-main.700f231d.js.map",
     "static/js/2.e2d6ddc3.chunk.js": "/Hortensia/static/js/2.e2d6ddc3.chunk.js",
     "static/js/2.e2d6ddc3.chunk.js.map": "/Hortensia/static/js/2.e2d6ddc3.chunk.js.map",
     "index.html": "/Hortensia/index.html",
-    "precache-manifest.a1e1217f8f456b13c331480e95d39c25.js": "/Hortensia/precache-manifest.a1e1217f8f456b13c331480e95d39c25.js",
+    "precache-manifest.a82b0327f1ce5766e2eeaee6087f88ea.js": "/Hortensia/precache-manifest.a82b0327f1ce5766e2eeaee6087f88ea.js",
     "service-worker.js": "/Hortensia/service-worker.js",
-    "static/css/main.0994051e.chunk.css.map": "/Hortensia/static/css/main.0994051e.chunk.css.map",
+    "static/css/main.684aa8c4.chunk.css.map": "/Hortensia/static/css/main.684aa8c4.chunk.css.map",
     "static/js/2.e2d6ddc3.chunk.js.LICENSE.txt": "/Hortensia/static/js/2.e2d6ddc3.chunk.js.LICENSE.txt",
     "static/media/difusorgral.jpg": "/Hortensia/static/media/difusorgral.9c071c28.jpg",
     "static/media/floreschicasgral.jpg": "/Hortensia/static/media/floreschicasgral.cbef198c.jpg",
@@ -23,7 +23,7 @@
   "entrypoints": [
     "static/js/runtime-main.700f231d.js",
     "static/js/2.e2d6ddc3.chunk.js",
-    "static/css/main.0994051e.chunk.css",
-    "static/js/main.caca4522.chunk.js"
+    "static/css/main.684aa8c4.chunk.css",
+    "static/js/main.333fccae.chunk.js"
   ]
 }
