@@ -3,11 +3,13 @@ import image1 from '../../../../assets/Velas/velasvidriogral.jpg';
 const data ={
     products:[
         {
+          _id: 1,
           image: image,
           name: 'Velas de Cemento',
           price: 780
     },
     {
+        _id: 2,
         image: image1,
         name: 'Velas de vidrio',
         price: 550

@@ -1,20 +1,29 @@
 import './style.css';
 import React from 'react';
 import data from './data';
+import { BrowserRouter, Link, Route } from 'react-router-dom';
+import DetailFlowers from './DetailFlowers';
 class FloresSecas extends React.Component {
   render(){
     return (
-      <div id="bodyF">
+      <BrowserRouter>
+     <div id="bodyF">
          {
         data.products.map(product =>
           <div className="flowers">
-          <img src={product.image} className="floresgral" alt="flores"/>
-          <h3 className="productName">{product.name}</h3>
-          <h4 className="productPrice">${product.price}</h4>
-          </div>
+          <Route exact path="/FloresSecas">
+          <Link className="link" to={"/DetailFlowers/" + product._id}>
+              <img src={product.image} className="floresgral" alt="flores"/>
+              <h3 className="productName">{product.name}</h3>
+            </Link>
+            <h4 className="productPrice">${product.price}</h4>
+          </Route>
+            </div>
           )
       }
+      <Route exact path="/DetailFlowers/:id"><DetailFlowers /></Route>
         </div>   
+        </BrowserRouter>
     );
   }
 }

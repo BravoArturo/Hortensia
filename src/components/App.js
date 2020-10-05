@@ -12,6 +12,7 @@ import Cart from './screens/Cart';
 import SignIn from './screens/SignIn';
 import principallogo from '../assets/Logos/hlogo.png';
 
+
 class App extends React.Component {
   render(){
     return (
@@ -28,10 +29,10 @@ class App extends React.Component {
               <div>
               Nuestros productos
                 <ul className="subMenuProducts">
-                  <li><Link className="link" to="/HomeSpray">Home Spray</Link></li>
-                  <li><Link className="link" to="/Difusores">Difusores</Link></li>
-                  <li><Link className="link" to="/Velas">Velas</Link></li>
-                  <li><Link className="link" to="/FloresSecas">Flores Secas</Link></li>
+                  <li><Link className="link1" to="/HomeSpray">Home Spray</Link></li>
+                  <li><Link className="link1" to="/Difusores">Difusores</Link></li>
+                  <li><Link className="link1" to="/Velas">Velas</Link></li>
+                  <li><Link className="link1" to="/FloresSecas">Flores Secas</Link></li>
                 </ul>
               </div>
               <a  className="followUs" target="_blank" href="https://www.instagram.com/hortensia.scents/?hl=es-la">
@@ -48,6 +49,7 @@ class App extends React.Component {
                   <Route exact path="/Difusores"><Difusores /></Route>
                   <Route exact path="/Velas"><Velas /></Route>
                   <Route exact path="/FloresSecas"><FloresSecas /></Route>
+                  
         </main>
         <footer className="footer">Todos los derechos reservados.</footer>   
       </div>
