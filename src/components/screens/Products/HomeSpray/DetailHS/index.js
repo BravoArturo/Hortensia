@@ -5,10 +5,11 @@ import { Router } from 'react-router';
 
 class DetailHS extends React.Component {
   render(){
+    const {match} = this.props;
     return (
       <div className="DetailHS">
       <h1>
-      Detalle de los HomeSpray
+      El id del home spray es: {match.params.id}
       </h1>
       </div>
     );

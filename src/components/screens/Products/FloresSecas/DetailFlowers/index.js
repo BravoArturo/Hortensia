@@ -5,10 +5,11 @@ import { Router } from 'react-router';
 
 class DetailFlowers extends React.Component {
   render(){
+    const { match } = this.props;
     return (
       <div className="DetailFlowers">
       <h1>
-      Detalle de las flores
+      El id de las flores es: {match.params.id}
       </h1>
       </div>
     );

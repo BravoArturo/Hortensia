@@ -21,7 +21,7 @@ class FloresSecas extends React.Component {
             </div>
           )
       }
-      <Route exact path="/DetailFlowers/:id"><DetailFlowers /></Route>
+      <Route exact path="/DetailFlowers/:id" component={DetailFlowers}></Route>
         </div>   
         </BrowserRouter>
     );

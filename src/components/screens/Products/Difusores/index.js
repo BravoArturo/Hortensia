@@ -1,8 +1,9 @@
 import './style.css';
-import React from 'react';
+import React, {Component} from 'react';
 import data from './data';
 import {BrowserRouter, Route, Link } from 'react-router-dom';
 import DetailDifusers from './DetailDifusers';
+
 class Difusores extends React.Component {
   render(){
     return (
@@ -21,9 +22,8 @@ class Difusores extends React.Component {
           </div>
           )
       }
-      <Route exact path="/detailDifusser/:id"><DetailDifusers /></Route>
+      <Route exact path="/detailDifusser/:id" component={DetailDifusers}></Route>
       </div>
-
       </BrowserRouter>
     );
   }

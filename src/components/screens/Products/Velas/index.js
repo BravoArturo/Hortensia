@@ -22,7 +22,7 @@ class Velas extends React.Component {
             </div>
           )
       }
-      <Route exact path="/DetailCandles/:id"><DetailCandles /></Route> 
+      <Route exact path="/DetailCandles/:id" component={DetailCandles}></Route> 
       </div>
       </BrowserRouter> 
     );

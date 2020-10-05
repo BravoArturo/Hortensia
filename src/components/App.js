@@ -12,7 +12,6 @@ import Cart from './screens/Cart';
 import SignIn from './screens/SignIn';
 import principallogo from '../assets/Logos/hlogo.png';
 
-
 class App extends React.Component {
   render(){
     return (

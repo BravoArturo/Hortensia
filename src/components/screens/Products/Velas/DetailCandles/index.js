@@ -5,10 +5,11 @@ import { Router } from 'react-router';
 
 class DetailCandles extends React.Component {
   render(){
+    const {match} = this.props;
     return (
       <div className="DetailCandles">
       <h1>
-      Detalle de las velas
+      El id de la vela es:{match.params.id}
       </h1>
       </div>
     );

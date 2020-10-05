@@ -21,7 +21,7 @@ class HomeSpray extends React.Component {
           </div>
           )
       }
-      <Route exact path="/detailHS/:id"><DetailHS /></Route>
+      <Route exact path="/detailHS/:id" component={DetailHS}></Route>
       </div>
       </BrowserRouter>
     );
