@@ -5,7 +5,9 @@ const data ={
             _id: 1,
           image: image1,
           name: 'Home Spray',
-          price: 420
+          price: 420,
+          descripcion:'Esta es la descripción',
+          estado:''
     }
 ]
 }

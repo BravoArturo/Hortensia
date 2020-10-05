@@ -8,10 +8,42 @@ import Difusores from '..';
 
 class DetailDifusers extends React.Component {
   render(){
-    const {match} = this.props;
+    const id = this.props.match.params.id;
+    const products = data.products.find(x => x._id == id);
     return (
-      <div className="DetailDifusers">
-      <h1>El id del producto es:{match.params.id}</h1>
+      <div className="bodyDetail">
+        <div className="imageDetail">
+          <img className="imageDetail" src={products.image} alt="candles"></img>
+        </div>
+        <div>
+        <ul>
+          <li><h2>{products.name}</h2></li>
+          <li><h3>{products.descripcion}</h3></li>
+          <li><h4>${products.price}</h4></li>
+        </ul>
+        </div>
+        <div className="add2cart">
+          <ul>
+            <li>
+              Precio:$ {products.price}
+            </li>
+            <li>
+              Estado: 
+            </li>
+            <li>
+              Cantidad: <select>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+              </select>
+            </li>
+            <li>
+              <button>Añadir al carrito</button>
+            </li>
+          </ul>
+        </div>
       </div>
     );
   }

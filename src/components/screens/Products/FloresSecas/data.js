@@ -6,13 +6,17 @@ const data ={
         _id: 1,
           image: image1,
           name: 'Flores Chicas',
-          price: 300
+          price: 300,
+          descripcion:'Esta es la descripción',
+          estado:''
     },
     {
         _id: 2,
         image: image2,
         name: 'Flores Grandes',
-        price: 600
+        price: 600,
+        descripcion:'Esta es la descripción',
+        estado:''
     }
 ]
 }

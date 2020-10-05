@@ -12,10 +12,10 @@ class Velas extends React.Component {
          {
            data.products.map(product => 
             <div className="candles">
-            <Route exact path="/Velas">
+            <Route exact path="/Velas" component={DetailCandles}>
             <Link className="link" to={"/DetailCandles/" + product._id}>
              <img src={product.image} className="velasgral" alt="velas"/>
-             <h3 className="productName">{product.name}</h3>
+             <h3 className="productName" >{product.name}</h3>
             </Link>
               <h4 className="productPrice">${product.price}</h4>
             </Route>
