@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "541cde4a20deed5811f5bb9d16df8c5f",
+    "revision": "ca58ddb77cddc739e1046c6bb9cb8490",
     "url": "/Hortensia/index.html"
   },
   {
-    "revision": "147709dc42879b50a858",
+    "revision": "aad85f03a1d6932431fc",
     "url": "/Hortensia/static/css/main.e444a2d2.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Hortensia/static/js/2.88cff7ed.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "147709dc42879b50a858",
-    "url": "/Hortensia/static/js/main.c5111d9d.chunk.js"
+    "revision": "aad85f03a1d6932431fc",
+    "url": "/Hortensia/static/js/main.449cff97.chunk.js"
   },
   {
     "revision": "0b12b0816c9a5b664b5e",
