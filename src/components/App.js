@@ -10,7 +10,7 @@ import HomeSpray from './screens/Products/HomeSpray';
 import Velas from './screens/Products/Velas';
 import Cart from './screens/Cart';
 import SignIn from './screens/SignIn';
-import principallogo from '../assets/Logos/principallogo.jpg';
+import principallogo from '../assets/Logos/hlogo.png';
 
 class App extends React.Component {
   render(){

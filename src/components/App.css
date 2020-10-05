@@ -55,8 +55,7 @@
 }
 .principallogo {
   display: flex;
-  height: 50px;
-  width: 50px;
+  margin:-60px;
 }
 .main {
   margin-top: -22px;
