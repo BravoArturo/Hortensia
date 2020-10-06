@@ -2,19 +2,19 @@ import './style.css';
 import React from 'react';
 import data from './data';
 import {BrowserRouter, Route, Link } from 'react-router-dom';
-import DetailCandles from './DetailCandles';
-class Velas extends React.Component {
+import DetailsSoap from './DetailsSoap';
+class Jabones extends React.Component {
   render(){
     
     return (
       <BrowserRouter>
-      <div id="bodyV">
+      <div id="bodyS">
          {
            data.products.map(product => 
-            <div className="candles">
-            <Route exact path="/Velas" component={Velas}>
-            <Link className="link" to={"/DetailCandles/" + product._id}>
-             <img src={product.image} className="velasgral" alt="velas"/>
+            <div className="soaps">
+            <Route exact path="/Jabones" component={Jabones}>
+            <Link className="link" to={"/DetailsSoap/" + product._id}>
+             <img src={product.image} className="jabonesgral" alt="Jabones"/>
              <h3 className="productName" >{product.name}</h3>
             </Link>
               <h4 className="productPrice">${product.price}</h4>
@@ -22,11 +22,11 @@ class Velas extends React.Component {
             </div>
           )
       }
-      <Route exact path="/DetailCandles/:id" component={DetailCandles}></Route> 
+      <Route exact path="/DetailsSoap/:id" component={DetailsSoap}></Route> 
       </div>
       </BrowserRouter> 
     );
   }
 }
 
-export default Velas;
+export default Jabones;

@@ -11,7 +11,7 @@ class FloresSecas extends React.Component {
          {
         data.products.map(product =>
           <div className="flowers">
-          <Route exact path="/FloresSecas">
+          <Route exact path="/FloresSecas" component={FloresSecas}>
           <Link className="link" to={"/DetailFlowers/" + product._id}>
               <img src={product.image} className="floresgral" alt="flores"/>
               <h3 className="productName">{product.name}</h3>
