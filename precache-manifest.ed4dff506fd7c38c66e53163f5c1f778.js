@@ -1,27 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d108204205e45f6c5e89415e644661ab",
+    "revision": "258b3367843e3324d7fc4970647f7ce1",
     "url": "/Hortensia/index.html"
   },
   {
-    "revision": "5ae4ddcadcec87928838",
-    "url": "/Hortensia/static/css/main.62516b86.chunk.css"
+    "revision": "e957f08568fae2a9b5bf",
+    "url": "/Hortensia/static/css/main.6acbfcd8.chunk.css"
   },
   {
-    "revision": "df84e82f90f4acc599dd",
-    "url": "/Hortensia/static/js/2.88cff7ed.chunk.js"
+    "revision": "3f0a0b86c4684983c097",
+    "url": "/Hortensia/static/js/2.1e7c6b33.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/Hortensia/static/js/2.88cff7ed.chunk.js.LICENSE.txt"
+    "url": "/Hortensia/static/js/2.1e7c6b33.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "5ae4ddcadcec87928838",
-    "url": "/Hortensia/static/js/main.c5123953.chunk.js"
+    "revision": "e957f08568fae2a9b5bf",
+    "url": "/Hortensia/static/js/main.3cc09c07.chunk.js"
   },
   {
     "revision": "0b12b0816c9a5b664b5e",
     "url": "/Hortensia/static/js/runtime-main.700f231d.js"
+  },
+  {
+    "revision": "968a58c3e5acc99427ce8b22a7a91069",
+    "url": "/Hortensia/static/media/bocalogo.968a58c3.png"
   },
   {
     "revision": "9c071c289df6a77d050a3fddd07cb66c",
