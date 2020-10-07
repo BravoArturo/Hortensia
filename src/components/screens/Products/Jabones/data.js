@@ -5,7 +5,7 @@ const data ={
           _id: 1,
           image: image,
           name: 'Jabones',
-          price: '..',
+          price: 500,
           descripcion:'Esta es la descripción',
           estado:''
     }
